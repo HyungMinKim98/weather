@@ -38,6 +38,7 @@ const AreaSearch = ({setAreaInfo}) => {
                 <input 
                     type="text" 
                     autoFocus
+                    value={inputValue}
                     onChange={onChangeInput}
                 />
                 <button>검색</button>
