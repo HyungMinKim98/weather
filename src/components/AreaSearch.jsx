@@ -23,6 +23,9 @@ const AreaSearch = ({setAreaInfo}) => {
 
     const onSubmit =(e) =>{
         e.preventDefault();
+        if(setAreaInfo !== undefined){
+            setAreaInfo(undefined)
+        }
         searchAddress(inputValue)
         setInputValue('');
     }
