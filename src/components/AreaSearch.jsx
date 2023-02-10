@@ -41,7 +41,7 @@ const AreaSearch = ({setAreaInfo}) => {
                     value={inputValue}
                     onChange={onChangeInput}
                 />
-                <button>검색d</button>
+                <button>검색</button>
             </form>
         </div>
     );
