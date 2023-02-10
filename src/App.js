@@ -8,6 +8,7 @@ function App() {
     lat:'37.566535',
     lon:'126.9779692'
   })
+  console.log(areaInfo)
   return (
     <div className="App">
       <AreaSearch setAreaInfo={setAreaInfo} />
@@ -18,6 +19,7 @@ function App() {
         lat={areaInfo.lat}
         lon={areaInfo.lon}        
       />}
+  
 
     </div>
   );
